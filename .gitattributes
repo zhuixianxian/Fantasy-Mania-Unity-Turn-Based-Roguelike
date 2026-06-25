@@ -1,0 +1,2 @@
+Assets/Resources/Audio/BGM/Circulation_loop.wav filter=lfs diff=lfs merge=lfs -text
+Assets/Resources/UI/MaShanZheng-Regular[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text

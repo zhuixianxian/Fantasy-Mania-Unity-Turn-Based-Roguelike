@@ -1,0 +1,18 @@
+# 核心编译缓存和临时文件（必须忽略，这就是报错的根源）
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# 版本控制及IDE配置（可选，建议忽略）
+.idea/
+.vs/
+*.csproj
+*.sln
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db

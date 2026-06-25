@@ -1,0 +1,358 @@
+{
+  "Recipe_ThreeKingdoms": {
+    "FormulaID": "Recipe_ThreeKingdoms",
+    "FormulaName": "合成三国演义",
+    "materialNumTable": {
+      "ZhiZhang": 20,
+      "Pencil": 5
+    },
+    "FormulaGoal": "ThreeKingdoms"
+  },
+  "Recipe_ShuangGuJian": {
+    "FormulaID": "Recipe_ShuangGuJian",
+    "FormulaName": "锻造双股剑",
+    "materialNumTable": {
+      "ThreeKingdoms": 1,
+      "IronOre": 20,
+      "GoldOre": 20
+    },
+    "FormulaGoal": "ShuangGuJian"
+  },
+  "Recipe_YanYueDao": {
+    "FormulaID": "Recipe_YanYueDao",
+    "FormulaName": "锻造偃月刀",
+    "materialNumTable": {
+      "ThreeKingdoms": 1,
+      "IronOre": 20,
+      "GoldOre": 20
+    },
+    "FormulaGoal": "YanYueDao"
+  },
+  "Recipe_SnakeSpear": {
+    "FormulaID": "Recipe_SnakeSpear",
+    "FormulaName": "锻造蛇矛",
+    "materialNumTable": {
+      "ThreeKingdoms": 1,
+      "IronOre": 20,
+      "GoldOre": 20
+    },
+    "FormulaGoal": "SnakeSpear"
+  },
+  "Recipe_WaterMargin": {
+    "FormulaID": "Recipe_WaterMargin",
+    "FormulaName": "合成水浒传",
+    "materialNumTable": {
+      "ZhiZhang": 20,
+      "Pencil": 5
+    },
+    "FormulaGoal": "WaterMargin"
+  },
+  "Recipe_DreamOfRedMansion": {
+    "FormulaID": "Recipe_DreamOfRedMansion",
+    "FormulaName": "合成红楼梦",
+    "materialNumTable": {
+      "ZhiZhang": 20,
+      "Pencil": 5
+    },
+    "FormulaGoal": "DreamOfRedMansion"
+  },
+  "Recipe_JourneyToTheWest": {
+    "FormulaID": "Recipe_JourneyToTheWest",
+    "FormulaName": "合成西游记",
+    "materialNumTable": {
+      "ZhiZhang": 20,
+      "Pencil": 5
+    },
+    "FormulaGoal": "JourneyToTheWest"
+  },
+  "Recipe_GoldIngot": {
+    "FormulaID": "Recipe_GoldIngot",
+    "FormulaName": "熔炼金锭",
+    "materialNumTable": {
+      "GoldOre": 10
+    },
+    "FormulaGoal": "GoldIngot"
+  },
+  "Recipe_SilverIngot": {
+    "FormulaID": "Recipe_SilverIngot",
+    "FormulaName": "熔炼银锭",
+    "materialNumTable": {
+      "SilverOre": 10
+    },
+    "FormulaGoal": "SilverIngot"
+  },
+  "Recipe_CopperIngot": {
+    "FormulaID": "Recipe_CopperIngot",
+    "FormulaName": "熔炼铜锭",
+    "materialNumTable": {
+      "CopperOre": 10
+    },
+    "FormulaGoal": "CopperIngot"
+  },
+  "Recipe_IronIngot": {
+    "FormulaID": "Recipe_IronIngot",
+    "FormulaName": "熔炼铁锭",
+    "materialNumTable": {
+      "IronOre": 10
+    },
+    "FormulaGoal": "IronIngot"
+  },
+
+  "Recipe_DouFuJiaI": {
+    "FormulaID": "Recipe_DouFuJiaI",
+    "FormulaName": "制作豆腐甲I",
+    "materialNumTable": {
+      "DouFu": 5,
+      "NiTu": 10,
+      "FeiLiao": 2
+    },
+    "FormulaGoal": "DouFuJiaI"
+  },
+  "Recipe_DouFuJiaII": {
+    "FormulaID": "Recipe_DouFuJiaII",
+    "FormulaName": "强化豆腐甲II",
+    "materialNumTable": {
+      "DouFuJiaI": 1,
+      "DouFu": 10,
+      "MaNao": 1,
+      "FeiCui": 1
+    },
+    "FormulaGoal": "DouFuJiaII"
+  },
+  "Recipe_DouFuJiaIII": {
+    "FormulaID": "Recipe_DouFuJiaIII",
+    "FormulaName": "精炼豆腐甲III",
+    "materialNumTable": {
+      "DouFuJiaII": 1,
+      "DouFu": 20,
+      "ZhenZhu": 3,
+      "LvBaoShi": 2,
+      "ZuanShi": 1
+    },
+    "FormulaGoal": "DouFuJiaIII"
+  },
+  "Recipe_FaGunZhangGunI": {
+    "FormulaID": "Recipe_FaGunZhangGunI",
+    "FormulaName": "制作法棍长棍I",
+    "materialNumTable": {
+      "FaGun": 3,
+      "MianTuan": 2,
+      "XiaoMai": 10
+    },
+    "FormulaGoal": "FaGunZhangGunI"
+  },
+  "Recipe_FaGunZhangGunII": {
+    "FormulaID": "Recipe_FaGunZhangGunII",
+    "FormulaName": "强化法棍长棍II",
+    "materialNumTable": {
+      "FaGunZhangGunI": 1,
+      "FaGun": 5,
+      "MianTuan": 5,
+      "ShaYuYa": 2
+    },
+    "FormulaGoal": "FaGunZhangGunII"
+  },
+  "Recipe_FaGunZhangGunIII": {
+    "FormulaID": "Recipe_FaGunZhangGunIII",
+    "FormulaName": "精炼法棍长棍III",
+    "materialNumTable": {
+      "FaGunZhangGunII": 1,
+      "FaGun": 10,
+      "MianTuan": 10,
+      "ZuanShi": 2,
+      "BeiKe": 5
+    },
+    "FormulaGoal": "FaGunZhangGunIII"
+  },
+  "Recipe_DouFuKuZiI": {
+    "FormulaID": "Recipe_DouFuKuZiI",
+    "FormulaName": "制作豆腐裤子I",
+    "materialNumTable": {
+      "DouFu": 4,
+      "HuangDou": 8,
+      "NiTu": 5
+    },
+    "FormulaGoal": "DouFuKuZiI"
+  },
+  "Recipe_DouFuKuZiII": {
+    "FormulaID": "Recipe_DouFuKuZiII",
+    "FormulaName": "强化豆腐裤子II",
+    "materialNumTable": {
+      "DouFuKuZiI": 1,
+      "DouFu": 8,
+      "HuangDou": 15,
+      "LuoKe": 2
+    },
+    "FormulaGoal": "DouFuKuZiII"
+  },
+  "Recipe_DouFuKuZiIII": {
+    "FormulaID": "Recipe_DouFuKuZiIII",
+    "FormulaName": "精炼豆腐裤子III",
+    "materialNumTable": {
+      "DouFuKuZiII": 1,
+      "DouFu": 15,
+      "HuangDou": 25,
+      "ZhenZhu": 2,
+      "FeiCui": 1
+    },
+    "FormulaGoal": "DouFuKuZiIII"
+  },
+  "Recipe_MianTuanBaoYiI": {
+    "FormulaID": "Recipe_MianTuanBaoYiI",
+    "FormulaName": "制作面团宝衣I",
+    "materialNumTable": {
+      "MianTuan": 5,
+      "XiaoMai": 12,
+      "NiTu": 8,
+      "FeiLiao": 3
+    },
+    "FormulaGoal": "MianTuanBaoYiI"
+  },
+  "Recipe_MianTuanBaoYiII": {
+    "FormulaID": "Recipe_MianTuanBaoYiII",
+    "FormulaName": "强化面团宝衣II",
+    "materialNumTable": {
+      "MianTuanBaoYiI": 1,
+      "MianTuan": 8,
+      "XiaoMai": 20,
+      "MaNao": 1,
+      "ShaYuYa": 1
+    },
+    "FormulaGoal": "MianTuanBaoYiII"
+  },
+  "Recipe_MianTuanBaoYiIII": {
+    "FormulaID": "Recipe_MianTuanBaoYiIII",
+    "FormulaName": "精炼面团宝衣III",
+    "materialNumTable": {
+      "MianTuanBaoYiII": 1,
+      "MianTuan": 15,
+      "XiaoMai": 30,
+      "ZuanShi": 1,
+      "LvBaoShi": 2
+    },
+    "FormulaGoal": "MianTuanBaoYiIII"
+  },
+
+  "Recipe_DouFu": {
+    "FormulaID": "Recipe_DouFu",
+    "FormulaName": "制作豆腐",
+    "materialNumTable": {
+      "HuangDou": 5
+    },
+    "FormulaGoal": "DouFu"
+  },
+  "Recipe_MianTuan": {
+    "FormulaID": "Recipe_MianTuan",
+    "FormulaName": "揉制面团",
+    "materialNumTable": {
+      "XiaoMai": 5
+    },
+    "FormulaGoal": "MianTuan"
+  },
+  "Recipe_FaGun": {
+    "FormulaID": "Recipe_FaGun",
+    "FormulaName": "烘烤法棍",
+    "materialNumTable": {
+      "MianTuan": 2
+    },
+    "FormulaGoal": "FaGun"
+  },
+  "Recipe_LargeMaNao": {
+    "FormulaID": "Recipe_LargeMaNao",
+    "FormulaName": "精炼大型玛瑙",
+    "materialNumTable": {
+      "MaNao": 5,
+      "GoldIngot": 1
+    },
+    "FormulaGoal": "LargeMaNao"
+  },
+  "Recipe_LargeFeiCui": {
+    "FormulaID": "Recipe_LargeFeiCui",
+    "FormulaName": "精炼大型翡翠",
+    "materialNumTable": {
+      "FeiCui": 5,
+      "GoldIngot": 1
+    },
+    "FormulaGoal": "LargeFeiCui"
+  },
+  "Recipe_LargeLvBaoShi": {
+    "FormulaID": "Recipe_LargeLvBaoShi",
+    "FormulaName": "精炼大型绿宝石",
+    "materialNumTable": {
+      "LvBaoShi": 5,
+      "GoldIngot": 1
+    },
+    "FormulaGoal": "LargeLvBaoShi"
+  },
+  "Recipe_LargeZhenZhu": {
+    "FormulaID": "Recipe_LargeZhenZhu",
+    "FormulaName": "精炼大型珍珠",
+    "materialNumTable": {
+      "ZhenZhu": 5,
+      "SilverIngot": 1
+    },
+    "FormulaGoal": "LargeZhenZhu"
+  },
+  "Recipe_LargeZuanShi": {
+    "FormulaID": "Recipe_LargeZuanShi",
+    "FormulaName": "精炼大型钻石",
+    "materialNumTable": {
+      "ZuanShi": 5,
+      "GoldIngot": 2,
+      "LvBaoShi": 1
+    },
+    "FormulaGoal": "LargeZuanShi"
+  },
+  "Recipe_KuGua": {
+    "FormulaID": "Recipe_KuGua",
+    "FormulaName": "凝悲成苦",
+    "materialNumTable": {
+      "Sadness": 1
+    },
+    "FormulaGoal": "KuGua"
+  },
+  "Recipe_LaJiao": {
+    "FormulaID": "Recipe_LaJiao",
+    "FormulaName": "燃怒成辣",
+    "materialNumTable": {
+      "Anger": 1
+    },
+    "FormulaGoal": "LaJiao"
+  },
+  "Recipe_MiCu": {
+    "FormulaID": "Recipe_MiCu",
+    "FormulaName": "酿酸成醋",
+    "materialNumTable": {
+      "Heartache": 1
+    },
+    "FormulaGoal": "MiCu"
+  },
+  "Recipe_MaPoDouFuBaoYi": {
+    "FormulaID": "Recipe_MaPoDouFuBaoYi",
+    "FormulaName": "麻婆强化·豆腐宝衣",
+    "materialNumTable": {
+      "DouFuBaoYiIII": 1,
+      "LaJiao": 5
+    },
+    "FormulaGoal": "MaPoDouFuBaoYi"
+  },
+  "Recipe_MaPoDouFuKuZi": {
+    "FormulaID": "Recipe_MaPoDouFuKuZi",
+    "FormulaName": "麻婆强化·豆腐裤子",
+    "materialNumTable": {
+      "DouFuKuZiIII": 1,
+      "LaJiao": 5
+    },
+    "FormulaGoal": "MaPoDouFuKuZi"
+  },
+
+  "Item_3": {
+    "FormulaID": "Item_3",
+    "FormulaName": "物品3",
+    "materialNumTable": {
+      "Item_1": 1,
+      "Item_2": 5
+    },
+    "FormulaGoal": "Item_4"
+  }
+}

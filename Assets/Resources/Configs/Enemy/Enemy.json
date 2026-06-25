@@ -1,0 +1,819 @@
+{
+  "ShuGuai": {
+    "EnemyID": "ShuGuai",
+    "EnemyName": "书怪",
+    "MaxHealth": 80,
+    "MaxEnergy": 80,
+    "MaxSkillPoints": 3,
+    "Attack": 10,
+    "Defense": 10,
+    "MagicAttack": 10,
+    "MagicDefense": 10,
+    "Speed": 3,
+    "Accuracy": 5,
+    "Evasion": 5,
+    "Parry": 5,
+    "Agility": 5,
+    "EffectHit": 2,
+    "EffectResistance": 2,
+    "enemySkillList": [
+      {
+        "SkillID": "JiaYeDao",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ShuiGui": {
+    "EnemyID": "ShuiGui",
+    "EnemyName": "水鬼",
+    "MaxHealth": 80,
+    "MaxEnergy": 80,
+    "MaxSkillPoints": 3,
+    "Attack": 10,
+    "Defense": 10,
+    "MagicAttack": 10,
+    "MagicDefense": 10,
+    "Speed": 3,
+    "Accuracy": 5,
+    "Evasion": 5,
+    "Parry": 5,
+    "Agility": 5,
+    "EffectHit": 2,
+    "EffectResistance": 2,
+    "enemySkillList": [
+      {
+        "SkillID": "ShuiPao",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ShengFan1": {
+    "EnemyID": "ShengFan1",
+    "EnemyName": "剩饭",
+    "MaxHealth": 180,
+    "MaxEnergy": 40,
+    "MaxSkillPoints": 3,
+    "Attack": 10,
+    "Defense": 10,
+    "MagicAttack": 10,
+    "MagicDefense": 10,
+    "Speed": 3,
+    "Accuracy": 5,
+    "Evasion": 5,
+    "Parry": 5,
+    "Agility": 5,
+    "EffectHit": 2,
+    "EffectResistance": 2,
+    "enemySkillList": [
+      {
+        "SkillID": "ZiRe",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ShengFan2": {
+    "EnemyID": "ShengFan2",
+    "EnemyName": "剩饭",
+    "MaxHealth": 80,
+    "MaxEnergy": 60,
+    "MaxSkillPoints": 3,
+    "Attack": 20,
+    "Defense": 10,
+    "MagicAttack": 10,
+    "MagicDefense": 10,
+    "Speed": 3,
+    "Accuracy": 5,
+    "Evasion": 5,
+    "Parry": 5,
+    "Agility": 5,
+    "EffectHit": 2,
+    "EffectResistance": 2,
+    "enemySkillList": [
+      {
+        "SkillID": "FuBai",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ShengFan3": {
+    "EnemyID": "ShengFan3",
+    "EnemyName": "剩饭",
+    "MaxHealth": 70,
+    "MaxEnergy": 50,
+    "MaxSkillPoints": 3,
+    "Attack": 10,
+    "Defense": 10,
+    "MagicAttack": 10,
+    "MagicDefense": 10,
+    "Speed": 20,
+    "Accuracy": 5,
+    "Evasion": 5,
+    "Parry": 5,
+    "Agility": 5,
+    "EffectHit": 2,
+    "EffectResistance": 2,
+    "enemySkillList": [
+      {
+        "SkillID": "HuiGuo",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ZhuoZi1": {
+    "EnemyID": "ZhuoZi1",
+    "EnemyName": "桌子",
+    "MaxHealth": 70,
+    "MaxEnergy": 50,
+    "MaxSkillPoints": 3,
+    "Attack": 0,
+    "Defense": 40,
+    "MagicAttack": 0,
+    "MagicDefense": 20,
+    "Speed": 20,
+    "Accuracy": 5,
+    "Evasion": 5,
+    "Parry": 5,
+    "Agility": 5,
+    "EffectHit": 2,
+    "EffectResistance": 2,
+    "enemySkillList": [
+      {
+        "SkillID": "JianYing",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ZhuoZi2": {
+    "EnemyID": "ZhuoZi2",
+    "EnemyName": "桌子",
+    "MaxHealth": 70,
+    "MaxEnergy": 50,
+    "MaxSkillPoints": 3,
+    "Attack": 0,
+    "Defense": 20,
+    "MagicAttack": 0,
+    "MagicDefense": 40,
+    "Speed": 20,
+    "Accuracy": 5,
+    "Evasion": 5,
+    "Parry": 5,
+    "Agility": 5,
+    "EffectHit": 2,
+    "EffectResistance": 2,
+    "enemySkillList": [
+      {
+        "SkillID": "JianRen",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ZhuoZi3": {
+    "EnemyID": "ZhuoZi3",
+    "EnemyName": "桌子",
+    "MaxHealth": 200,
+    "MaxEnergy": 50,
+    "MaxSkillPoints": 3,
+    "Attack": 0,
+    "Defense": 5,
+    "MagicAttack": 0,
+    "MagicDefense": 5,
+    "Speed": 20,
+    "Accuracy": 5,
+    "Evasion": 5,
+    "Parry": 5,
+    "Agility": 5,
+    "EffectHit": 2,
+    "EffectResistance": 2,
+    "enemySkillList": [
+      {
+        "SkillID": "ChuLi",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+
+
+  "CaoRen": {
+    "EnemyID": "CaoRen",
+    "EnemyName": "稻草人",
+    "MaxHealth": 120,
+    "MaxEnergy": 40,
+    "MaxSkillPoints": 2,
+    "Attack": 15,
+    "Defense": 25,
+    "MagicAttack": 5,
+    "MagicDefense": 15,
+    "Speed": 2,
+    "Accuracy": 5,
+    "Evasion": 3,
+    "Parry": 3,
+    "Agility": 3,
+    "EffectHit": 2,
+    "EffectResistance": 5,
+    "enemySkillList": [
+      {
+        "SkillID": "DaoCaoLianDao",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "YeTu": {
+    "EnemyID": "YeTu",
+    "EnemyName": "野兔",
+    "MaxHealth": 60,
+    "MaxEnergy": 60,
+    "MaxSkillPoints": 3,
+    "Attack": 12,
+    "Defense": 5,
+    "MagicAttack": 8,
+    "MagicDefense": 8,
+    "Speed": 25,
+    "Accuracy": 12,
+    "Evasion": 15,
+    "Parry": 5,
+    "Agility": 20,
+    "EffectHit": 5,
+    "EffectResistance": 3,
+    "enemySkillList": [
+      {
+        "SkillID": "TiaoYueTiJi",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ChongZi": {
+    "EnemyID": "ChongZi",
+    "EnemyName": "虫子",
+    "MaxHealth": 40,
+    "MaxEnergy": 30,
+    "MaxSkillPoints": 2,
+    "Attack": 8,
+    "Defense": 3,
+    "MagicAttack": 12,
+    "MagicDefense": 5,
+    "Speed": 15,
+    "Accuracy": 10,
+    "Evasion": 20,
+    "Parry": 2,
+    "Agility": 18,
+    "EffectHit": 8,
+    "EffectResistance": 2,
+    "enemySkillList": [
+      {
+        "SkillID": "DuYePenSa",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "KuangGongGui": {
+    "EnemyID": "KuangGongGui",
+    "EnemyName": "矿工鬼",
+    "MaxHealth": 100,
+    "MaxEnergy": 60,
+    "MaxSkillPoints": 2,
+    "Attack": 18,
+    "Defense": 12,
+    "MagicAttack": 5,
+    "MagicDefense": 8,
+    "Speed": 8,
+    "Accuracy": 8,
+    "Evasion": 5,
+    "Parry": 5,
+    "Agility": 6,
+    "EffectHit": 3,
+    "EffectResistance": 4,
+    "enemySkillList": [
+      {
+        "SkillID": "KuangGongChui",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "SuiShiGuai": {
+    "EnemyID": "SuiShiGuai",
+    "EnemyName": "碎石怪",
+    "MaxHealth": 150,
+    "MaxEnergy": 40,
+    "MaxSkillPoints": 2,
+    "Attack": 12,
+    "Defense": 30,
+    "MagicAttack": 3,
+    "MagicDefense": 20,
+    "Speed": 4,
+    "Accuracy": 6,
+    "Evasion": 3,
+    "Parry": 8,
+    "Agility": 4,
+    "EffectHit": 2,
+    "EffectResistance": 8,
+    "enemySkillList": [
+      {
+        "SkillID": "ShiTouZhen",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "DiXiaChong": {
+    "EnemyID": "DiXiaChong",
+    "EnemyName": "地下虫",
+    "MaxHealth": 70,
+    "MaxEnergy": 50,
+    "MaxSkillPoints": 3,
+    "Attack": 14,
+    "Defense": 8,
+    "MagicAttack": 6,
+    "MagicDefense": 6,
+    "Speed": 16,
+    "Accuracy": 10,
+    "Evasion": 12,
+    "Parry": 4,
+    "Agility": 14,
+    "EffectHit": 6,
+    "EffectResistance": 3,
+    "enemySkillList": [
+      {
+        "SkillID": "ZuanDi",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "YinKuangShouHu": {
+    "EnemyID": "YinKuangShouHu",
+    "EnemyName": "银矿守护",
+    "MaxHealth": 200,
+    "MaxEnergy": 70,
+    "MaxSkillPoints": 3,
+    "Attack": 22,
+    "Defense": 18,
+    "MagicAttack": 12,
+    "MagicDefense": 15,
+    "Speed": 7,
+    "Accuracy": 9,
+    "Evasion": 6,
+    "Parry": 7,
+    "Agility": 5,
+    "EffectHit": 5,
+    "EffectResistance": 6,
+    "enemySkillList": [
+      {
+        "SkillID": "YinGuangZhan",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "JinKuangShouHu": {
+    "EnemyID": "JinKuangShouHu",
+    "EnemyName": "金矿守护",
+    "MaxHealth": 240,
+    "MaxEnergy": 80,
+    "MaxSkillPoints": 3,
+    "Attack": 28,
+    "Defense": 22,
+    "MagicAttack": 15,
+    "MagicDefense": 18,
+    "Speed": 6,
+    "Accuracy": 10,
+    "Evasion": 5,
+    "Parry": 8,
+    "Agility": 4,
+    "EffectHit": 6,
+    "EffectResistance": 8,
+    "enemySkillList": [
+      {
+        "SkillID": "JinGuangZhan",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "YanJiangMo": {
+    "EnemyID": "YanJiangMo",
+    "EnemyName": "岩浆魔",
+    "MaxHealth": 180,
+    "MaxEnergy": 90,
+    "MaxSkillPoints": 3,
+    "Attack": 20,
+    "Defense": 15,
+    "MagicAttack": 25,
+    "MagicDefense": 12,
+    "Speed": 10,
+    "Accuracy": 8,
+    "Evasion": 7,
+    "Parry": 5,
+    "Agility": 8,
+    "EffectHit": 7,
+    "EffectResistance": 5,
+    "enemySkillList": [
+      {
+        "SkillID": "YanJiangPenShe",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "LvBaoShiShouHu": {
+    "EnemyID": "LvBaoShiShouHu",
+    "EnemyName": "绿宝石守护",
+    "MaxHealth": 260,
+    "MaxEnergy": 100,
+    "MaxSkillPoints": 4,
+    "Attack": 30,
+    "Defense": 25,
+    "MagicAttack": 20,
+    "MagicDefense": 25,
+    "Speed": 9,
+    "Accuracy": 12,
+    "Evasion": 8,
+    "Parry": 10,
+    "Agility": 7,
+    "EffectHit": 8,
+    "EffectResistance": 10,
+    "enemySkillList": [
+      {
+        "SkillID": "LvGuangBaoZha",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ZuanShiShouHu": {
+    "EnemyID": "ZuanShiShouHu",
+    "EnemyName": "钻石守护",
+    "MaxHealth": 300,
+    "MaxEnergy": 120,
+    "MaxSkillPoints": 4,
+    "Attack": 35,
+    "Defense": 35,
+    "MagicAttack": 15,
+    "MagicDefense": 30,
+    "Speed": 5,
+    "Accuracy": 15,
+    "Evasion": 5,
+    "Parry": 15,
+    "Agility": 5,
+    "EffectHit": 10,
+    "EffectResistance": 15,
+    "enemySkillList": [
+      {
+        "SkillID": "ZuanShiHuDun",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ZhenZhuJingLing": {
+    "EnemyID": "ZhenZhuJingLing",
+    "EnemyName": "珍珠精灵",
+    "MaxHealth": 150,
+    "MaxEnergy": 150,
+    "MaxSkillPoints": 3,
+    "Attack": 10,
+    "Defense": 10,
+    "MagicAttack": 28,
+    "MagicDefense": 20,
+    "Speed": 18,
+    "Accuracy": 14,
+    "Evasion": 18,
+    "Parry": 6,
+    "Agility": 22,
+    "EffectHit": 12,
+    "EffectResistance": 12,
+    "enemySkillList": [
+      {
+        "SkillID": "ZhenZhuGuangHui",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "KuQiGui": {
+    "EnemyID": "KuQiGui",
+    "EnemyName": "哭泣鬼",
+    "MaxHealth": 90,
+    "MaxEnergy": 100,
+    "MaxSkillPoints": 3,
+    "Attack": 8,
+    "Defense": 6,
+    "MagicAttack": 18,
+    "MagicDefense": 12,
+    "Speed": 10,
+    "Accuracy": 8,
+    "Evasion": 12,
+    "Parry": 3,
+    "Agility": 14,
+    "EffectHit": 8,
+    "EffectResistance": 6,
+    "enemySkillList": [
+      {
+        "SkillID": "KuQiBo",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "FengYao": {
+    "EnemyID": "FengYao",
+    "EnemyName": "风妖",
+    "MaxHealth": 70,
+    "MaxEnergy": 80,
+    "MaxSkillPoints": 3,
+    "Attack": 12,
+    "Defense": 8,
+    "MagicAttack": 15,
+    "MagicDefense": 10,
+    "Speed": 22,
+    "Accuracy": 14,
+    "Evasion": 18,
+    "Parry": 4,
+    "Agility": 20,
+    "EffectHit": 6,
+    "EffectResistance": 8,
+    "enemySkillList": [
+      {
+        "SkillID": "FengRen",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "KuMuJing": {
+    "EnemyID": "KuMuJing",
+    "EnemyName": "枯木精",
+    "MaxHealth": 150,
+    "MaxEnergy": 50,
+    "MaxSkillPoints": 2,
+    "Attack": 15,
+    "Defense": 25,
+    "MagicAttack": 5,
+    "MagicDefense": 15,
+    "Speed": 5,
+    "Accuracy": 6,
+    "Evasion": 4,
+    "Parry": 10,
+    "Agility": 3,
+    "EffectHit": 4,
+    "EffectResistance": 12,
+    "enemySkillList": [
+      {
+        "SkillID": "MuZhen",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "NuYanGuai": {
+    "EnemyID": "NuYanGuai",
+    "EnemyName": "怒岩怪",
+    "MaxHealth": 200,
+    "MaxEnergy": 60,
+    "MaxSkillPoints": 3,
+    "Attack": 30,
+    "Defense": 35,
+    "MagicAttack": 5,
+    "MagicDefense": 15,
+    "Speed": 3,
+    "Accuracy": 8,
+    "Evasion": 3,
+    "Parry": 12,
+    "Agility": 4,
+    "EffectHit": 6,
+    "EffectResistance": 10,
+    "enemySkillList": [
+      {
+        "SkillID": "JuShiBeng",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "HuoXiYi": {
+    "EnemyID": "HuoXiYi",
+    "EnemyName": "火蜥蜴",
+    "MaxHealth": 110,
+    "MaxEnergy": 70,
+    "MaxSkillPoints": 3,
+    "Attack": 18,
+    "Defense": 12,
+    "MagicAttack": 22,
+    "MagicDefense": 10,
+    "Speed": 16,
+    "Accuracy": 10,
+    "Evasion": 14,
+    "Parry": 6,
+    "Agility": 12,
+    "EffectHit": 10,
+    "EffectResistance": 5,
+    "enemySkillList": [
+      {
+        "SkillID": "YanPen",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "KuangBaoJuYuan": {
+    "EnemyID": "KuangBaoJuYuan",
+    "EnemyName": "狂暴巨猿",
+    "MaxHealth": 250,
+    "MaxEnergy": 80,
+    "MaxSkillPoints": 4,
+    "Attack": 35,
+    "Defense": 20,
+    "MagicAttack": 8,
+    "MagicDefense": 12,
+    "Speed": 12,
+    "Accuracy": 12,
+    "Evasion": 8,
+    "Parry": 8,
+    "Agility": 10,
+    "EffectHit": 8,
+    "EffectResistance": 8,
+    "enemySkillList": [
+      {
+        "SkillID": "FengNuQuan",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "ShaKuiLei": {
+    "EnemyID": "ShaKuiLei",
+    "EnemyName": "沙傀儡",
+    "MaxHealth": 130,
+    "MaxEnergy": 40,
+    "MaxSkillPoints": 2,
+    "Attack": 10,
+    "Defense": 28,
+    "MagicAttack": 6,
+    "MagicDefense": 20,
+    "Speed": 6,
+    "Accuracy": 6,
+    "Evasion": 4,
+    "Parry": 8,
+    "Agility": 5,
+    "EffectHit": 4,
+    "EffectResistance": 10,
+    "enemySkillList": [
+      {
+        "SkillID": "ShaBao",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "SuanShiChong": {
+    "EnemyID": "SuanShiChong",
+    "EnemyName": "酸蚀虫",
+    "MaxHealth": 80,
+    "MaxEnergy": 60,
+    "MaxSkillPoints": 3,
+    "Attack": 14,
+    "Defense": 8,
+    "MagicAttack": 20,
+    "MagicDefense": 8,
+    "Speed": 18,
+    "Accuracy": 14,
+    "Evasion": 16,
+    "Parry": 4,
+    "Agility": 15,
+    "EffectHit": 12,
+    "EffectResistance": 4,
+    "enemySkillList": [
+      {
+        "SkillID": "QiangSuanPen",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "KuGuXie": {
+    "EnemyID": "KuGuXie",
+    "EnemyName": "枯骨蝎",
+    "MaxHealth": 160,
+    "MaxEnergy": 70,
+    "MaxSkillPoints": 3,
+    "Attack": 22,
+    "Defense": 25,
+    "MagicAttack": 12,
+    "MagicDefense": 18,
+    "Speed": 14,
+    "Accuracy": 10,
+    "Evasion": 12,
+    "Parry": 10,
+    "Agility": 8,
+    "EffectHit": 8,
+    "EffectResistance": 12,
+    "enemySkillList": [
+      {
+        "SkillID": "DuWeiCi",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "TanShiGui": {
+    "EnemyID": "TanShiGui",
+    "EnemyName": "贪食鬼",
+    "MaxHealth": 160,
+    "MaxEnergy": 70,
+    "MaxSkillPoints": 3,
+    "Attack": 22,
+    "Defense": 15,
+    "MagicAttack": 8,
+    "MagicDefense": 10,
+    "Speed": 10,
+    "Accuracy": 8,
+    "Evasion": 6,
+    "Parry": 5,
+    "Agility": 8,
+    "EffectHit": 5,
+    "EffectResistance": 6,
+    "enemySkillList": [
+      {
+        "SkillID": "TanShi",
+        "skillType": 0,
+        "SkillPoints": 0
+      },
+      {
+        "SkillID": "BaoShiGuang",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "XiangLiaoJingLing": {
+    "EnemyID": "XiangLiaoJingLing",
+    "EnemyName": "香料精灵",
+    "MaxHealth": 100,
+    "MaxEnergy": 90,
+    "MaxSkillPoints": 3,
+    "Attack": 12,
+    "Defense": 8,
+    "MagicAttack": 24,
+    "MagicDefense": 15,
+    "Speed": 22,
+    "Accuracy": 14,
+    "Evasion": 18,
+    "Parry": 4,
+    "Agility": 20,
+    "EffectHit": 12,
+    "EffectResistance": 10,
+    "enemySkillList": [
+      {
+        "SkillID": "XiangLiaoFenWu",
+        "skillType": 0,
+        "SkillPoints": 0
+      },
+      {
+        "SkillID": "CiJiShu",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  },
+  "GuoLuYao": {
+    "EnemyID": "GuoLuYao",
+    "EnemyName": "锅炉妖",
+    "MaxHealth": 200,
+    "MaxEnergy": 60,
+    "MaxSkillPoints": 3,
+    "Attack": 25,
+    "Defense": 28,
+    "MagicAttack": 15,
+    "MagicDefense": 18,
+    "Speed": 6,
+    "Accuracy": 10,
+    "Evasion": 5,
+    "Parry": 12,
+    "Agility": 5,
+    "EffectHit": 8,
+    "EffectResistance": 12,
+    "enemySkillList": [
+      {
+        "SkillID": "GuoLuHongZha",
+        "skillType": 0,
+        "SkillPoints": 0
+      },
+      {
+        "SkillID": "YanWuMiMan",
+        "skillType": 0,
+        "SkillPoints": 0
+      }
+    ]
+  }
+}

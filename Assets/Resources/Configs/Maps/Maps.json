@@ -1,0 +1,899 @@
+{
+  "XueXiao": {
+    "NodeID": "XueXiao",
+    "NodeName": "学校",
+    "DeviationValue": 7149,
+    "enemyContentsData": [
+      {
+        "EnemyID": "ShuGuai",
+        "EnemyName": "书怪",
+        "EnemyWeight": 1,
+        "DeviationValue": 12
+      },
+      {
+        "EnemyID": "ShuiGui",
+        "EnemyName": "水鬼",
+        "EnemyWeight": 1,
+        "DeviationValue": 66
+      },
+      {
+        "EnemyID": "ZhuoZi1",
+        "EnemyName": "桌子",
+        "EnemyWeight": 1,
+        "DeviationValue": 75
+      },
+      {
+        "EnemyID": "ShengFan1",
+        "EnemyName": "剩饭",
+        "EnemyWeight": 1,
+        "DeviationValue": 100
+      },
+      {
+        "EnemyID": "ShengFan2",
+        "EnemyName": "剩饭",
+        "EnemyWeight": 1,
+        "DeviationValue": 31
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "ZiXiShi",
+        "NodeContentName": "自习室",
+        "weight": 1,
+        "DeviationValue": 45,
+        "canSynthesisItem": [
+          "Recipe_ThreeKingdoms",
+          "Recipe_WaterMargin",
+          "Recipe_JourneyToTheWest",
+          "Recipe_DreamOfRedMansion",
+          "Recipe_GoldIngot",
+          "Recipe_ShuangGuJian",
+          "Recipe_YanYueDao",
+          "Recipe_SnakeSpear"
+        ]
+
+
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "JiaoXueLou",
+        "NodeContentName": "教学楼",
+        "weight": 1,
+        "DeviationValue": 114,
+        "CanAppearItem": {
+          "YiZi": 1
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "BanZhang",
+        "NodeContentName": "班长",
+        "weight": 1,
+        "DeviationValue": 548,
+        "NPCRelatedTasks": {
+          "DaiFan": 1,
+          "DaShui": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "XiaoMaiBu",
+        "NodeContentName": "小卖部",
+        "weight": 1,
+        "DeviationValue": 24,
+        "CanAppearCommodity": [
+          "ZhiZhang",
+          "Pencil",
+          "WaterMargin"
+        ]
+      },
+      {
+        "NodeContentID": "ShuDian",
+        "NodeContentName": "书店",
+        "weight": 1,
+        "DeviationValue": 50,
+        "CanAppearCommodity": [
+          "ThreeKingdoms",
+          "WaterMargin",
+          "DreamOfRedMansion",
+          "JourneyToTheWest",
+          "ZhiZhang",
+          "Pencil"
+          
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "ZhiZhang",
+      "Pencil",
+      "WaterMargin",
+      "MaPoDouFuBaoYi"
+    ]
+  },
+
+  "HuangDouNongChang": {
+    "NodeID": "HuangDouNongChang",
+    "NodeName": "黄豆农场",
+    "DeviationValue": 5000,
+    "enemyContentsData": [
+      {
+        "EnemyID": "CaoRen",
+        "EnemyName": "稻草人",
+        "EnemyWeight": 1,
+        "DeviationValue": 30
+      },
+      {
+        "EnemyID": "YeTu",
+        "EnemyName": "野兔",
+        "EnemyWeight": 1,
+        "DeviationValue": 45
+      },
+      {
+        "EnemyID": "ChongZi",
+        "EnemyName": "虫子",
+        "EnemyWeight": 1,
+        "DeviationValue": 20
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "MoFang",
+        "NodeContentName": "磨坊",
+        "weight": 1,
+        "DeviationValue": 30,
+        "canSynthesisItem": [
+          "Recipe_DouFu",
+          "Recipe_MianTuan",
+          "Recipe_FaGun"
+        ]
+      },
+      {
+        "NodeContentID": "DouFuFang",
+        "NodeContentName": "豆腐坊",
+        "weight": 1,
+        "DeviationValue": 40,
+        "canSynthesisItem": [
+          "Recipe_DouFuJiaI",
+          "Recipe_DouFuJiaII",
+          "Recipe_DouFuJiaIII",
+          "Recipe_DouFuKuZiI",
+          "Recipe_DouFuKuZiII",
+          "Recipe_DouFuKuZiIII"
+        ]
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "CangKu",
+        "NodeContentName": "仓库",
+        "weight": 1,
+        "DeviationValue": 80,
+        "CanAppearItem": {
+          "HuangDou": 5,
+          "FeiLiao": 2
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "NongChangZhu",
+        "NodeContentName": "农场主",
+        "weight": 1,
+        "DeviationValue": 120,
+        "NPCRelatedTasks": {
+          "ChuCao": 1,
+          "JiaoShui": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "NongMaoShiChang",
+        "NodeContentName": "农贸市场",
+        "weight": 1,
+        "DeviationValue": 25,
+        "CanAppearCommodity": [
+          "HuangDou",
+          "DouFu",
+          "XiaoMai",
+          "NiTu",
+          "FeiLiao"
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "HuangDou",
+      "NiTu",
+      "FeiLiao"
+    ]
+  },
+
+  "XiaoMaiNongChang": {
+    "NodeID": "XiaoMaiNongChang",
+    "NodeName": "小麦农场",
+    "DeviationValue": 5200,
+    "enemyContentsData": [
+      {
+        "EnemyID": "CaoRen",
+        "EnemyName": "稻草人",
+        "EnemyWeight": 1,
+        "DeviationValue": 30
+      },
+      {
+        "EnemyID": "YeTu",
+        "EnemyName": "野兔",
+        "EnemyWeight": 1,
+        "DeviationValue": 45
+      },
+      {
+        "EnemyID": "ChongZi",
+        "EnemyName": "虫子",
+        "EnemyWeight": 1,
+        "DeviationValue": 20
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "FengChe",
+        "NodeContentName": "风车",
+        "weight": 1,
+        "DeviationValue": 30,
+        "canSynthesisItem": [
+          "Recipe_MianTuan",
+          "Recipe_FaGun"
+        ]
+      },
+      {
+        "NodeContentID": "MianBaoGongFang",
+        "NodeContentName": "面包工坊",
+        "weight": 1,
+        "DeviationValue": 50,
+        "canSynthesisItem": [
+          "Recipe_FaGunZhangGunI",
+          "Recipe_FaGunZhangGunII",
+          "Recipe_FaGunZhangGunIII",
+          "Recipe_MianTuanBaoYiI",
+          "Recipe_MianTuanBaoYiII",
+          "Recipe_MianTuanBaoYiIII"
+        ]
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "GuCang",
+        "NodeContentName": "谷仓",
+        "weight": 1,
+        "DeviationValue": 75,
+        "CanAppearItem": {
+          "XiaoMai": 8,
+          "FeiLiao": 3
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "NongChangZhu",
+        "NodeContentName": "农场主",
+        "weight": 1,
+        "DeviationValue": 110,
+        "NPCRelatedTasks": {
+          "ShouHuo": 1,
+          "QuChong": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "LiangShiDian",
+        "NodeContentName": "粮店",
+        "weight": 1,
+        "DeviationValue": 20,
+        "CanAppearCommodity": [
+          "XiaoMai",
+          "MianTuan",
+          "NiTu",
+          "FeiLiao"
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "XiaoMai",
+      "NiTu",
+      "FeiLiao"
+    ]
+  },
+
+  "PuTongKuangDong": {
+    "NodeID": "PuTongKuangDong",
+    "NodeName": "普通矿洞",
+    "DeviationValue": 4800,
+    "enemyContentsData": [
+      {
+        "EnemyID": "KuangGongGui",
+        "EnemyName": "矿工鬼",
+        "EnemyWeight": 1,
+        "DeviationValue": 35
+      },
+      {
+        "EnemyID": "SuiShiGuai",
+        "EnemyName": "碎石怪",
+        "EnemyWeight": 1,
+        "DeviationValue": 40
+      },
+      {
+        "EnemyID": "DiXiaChong",
+        "EnemyName": "地下虫",
+        "EnemyWeight": 1,
+        "DeviationValue": 25
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "RongLu",
+        "NodeContentName": "熔炉",
+        "weight": 1,
+        "DeviationValue": 20,
+        "canSynthesisItem": [
+          "Recipe_CopperIngot",
+          "Recipe_IronIngot"
+        ]
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "KuangChe",
+        "NodeContentName": "矿车",
+        "weight": 1,
+        "DeviationValue": 60,
+        "CanAppearItem": {
+          "IronOre": 5,
+          "CopperOre": 8,
+          "NiTu": 3
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "LaoKuangGong",
+        "NodeContentName": "老矿工",
+        "weight": 1,
+        "DeviationValue": 90,
+        "NPCRelatedTasks": {
+          "WaJue": 1,
+          "SongShui": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "KuangGongDian",
+        "NodeContentName": "矿工店",
+        "weight": 1,
+        "DeviationValue": 28,
+        "CanAppearCommodity": [
+          "IronOre",
+          "CopperOre",
+          "NiTu",
+          "FeiLiao"
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "IronOre",
+      "CopperOre",
+      "NiTu"
+    ]
+  },
+
+  "ZhenXiKuangDong": {
+    "NodeID": "ZhenXiKuangDong",
+    "NodeName": "珍惜矿洞",
+    "DeviationValue": 6000,
+    "enemyContentsData": [
+      {
+        "EnemyID": "YinKuangShouHu",
+        "EnemyName": "银矿守护",
+        "EnemyWeight": 1,
+        "DeviationValue": 50
+      },
+      {
+        "EnemyID": "JinKuangShouHu",
+        "EnemyName": "金矿守护",
+        "EnemyWeight": 1,
+        "DeviationValue": 55
+      },
+      {
+        "EnemyID": "YanJiangMo",
+        "EnemyName": "岩浆魔",
+        "EnemyWeight": 1,
+        "DeviationValue": 45
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "GaoJiRongLu",
+        "NodeContentName": "高级熔炉",
+        "weight": 1,
+        "DeviationValue": 35,
+        "canSynthesisItem": [
+          "Recipe_SilverIngot",
+          "Recipe_GoldIngot"
+        ]
+      },
+      {
+        "NodeContentID": "BaoShiJiaGongTai",
+        "NodeContentName": "宝石加工台",
+        "weight": 1,
+        "DeviationValue": 45,
+        "canSynthesisItem": [
+          "Recipe_LargeMaNao",
+          "Recipe_LargeFeiCui",
+          "Recipe_LargeLvBaoShi",
+          "Recipe_LargeZhenZhu",
+          "Recipe_LargeZuanShi"
+        ]
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "ZhenKuangXiang",
+        "NodeContentName": "珍矿箱",
+        "weight": 1,
+        "DeviationValue": 90,
+        "CanAppearItem": {
+          "SilverOre": 6,
+          "GoldOre": 4,
+          "MaNao": 1
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "ZhenXiKuangGong",
+        "NodeContentName": "珍惜矿工",
+        "weight": 1,
+        "DeviationValue": 130,
+        "NPCRelatedTasks": {
+          "XunZhaoJinKuang": 1,
+          "DaZaoYinDing": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "ZhenKuangDian",
+        "NodeContentName": "珍矿店",
+        "weight": 1,
+        "DeviationValue": 35,
+        "CanAppearCommodity": [
+          "SilverOre",
+          "GoldOre",
+          "MaNao",
+          "FeiCui"
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "SilverOre",
+      "GoldOre",
+      "MaNao"
+    ]
+  },
+
+  "BaoShiKuangDong": {
+    "NodeID": "BaoShiKuangDong",
+    "NodeName": "宝石矿洞",
+    "DeviationValue": 7500,
+    "enemyContentsData": [
+      {
+        "EnemyID": "LvBaoShiShouHu",
+        "EnemyName": "绿宝石守护",
+        "EnemyWeight": 1,
+        "DeviationValue": 60
+      },
+      {
+        "EnemyID": "ZuanShiShouHu",
+        "EnemyName": "钻石守护",
+        "EnemyWeight": 1,
+        "DeviationValue": 80
+      },
+      {
+        "EnemyID": "ZhenZhuJingLing",
+        "EnemyName": "珍珠精灵",
+        "EnemyWeight": 1,
+        "DeviationValue": 50
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "BaoShiRongLu",
+        "NodeContentName": "宝石熔炉",
+        "weight": 1,
+        "DeviationValue": 50,
+        "canSynthesisItem": [
+          "Recipe_CopperIngot",
+          "Recipe_IronIngot",
+          "Recipe_SilverIngot",
+          "Recipe_GoldIngot"
+        ]
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "BaoShiXiang",
+        "NodeContentName": "宝石箱",
+        "weight": 1,
+        "DeviationValue": 120,
+        "CanAppearItem": {
+          "LvBaoShi": 2,
+          "ZuanShi": 1,
+          "ZhenZhu": 3,
+          "FeiCui": 2
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "BaoShiShangRen",
+        "NodeContentName": "宝石商人",
+        "weight": 1,
+        "DeviationValue": 150,
+        "NPCRelatedTasks": {
+          "ShouJiBaoShi": 1,
+          "DiaoZhuoJingPin": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "BaoShiDian",
+        "NodeContentName": "宝石店",
+        "weight": 1,
+        "DeviationValue": 40,
+        "CanAppearCommodity": [
+          "MaNao",
+          "FeiCui",
+          "LvBaoShi",
+          "ZhenZhu",
+          "ZuanShi"
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "MaNao",
+      "FeiCui",
+      "LvBaoShi",
+      "ZhenZhu",
+      "ZuanShi"
+    ]
+  },
+  "BeiFengShanGu": {
+    "NodeID": "BeiFengShanGu",
+    "NodeName": "悲风山谷",
+    "DeviationValue": 5500,
+    "enemyContentsData": [
+      {
+        "EnemyID": "KuQiGui",
+        "EnemyName": "哭泣鬼",
+        "EnemyWeight": 1,
+        "DeviationValue": 35
+      },
+      {
+        "EnemyID": "FengYao",
+        "EnemyName": "风妖",
+        "EnemyWeight": 1,
+        "DeviationValue": 40
+      },
+      {
+        "EnemyID": "KuMuJing",
+        "EnemyName": "枯木精",
+        "EnemyWeight": 1,
+        "DeviationValue": 30
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "BeiFengJiangTai",
+        "NodeContentName": "悲风讲台",
+        "weight": 1,
+        "DeviationValue": 45,
+        "canSynthesisItem": [
+          "Recipe_KuGua"
+        ]
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "KuQiShu",
+        "NodeContentName": "枯泣树",
+        "weight": 1,
+        "DeviationValue": 80,
+        "CanAppearItem": {
+          "Sadness": 3,
+          "ZhiZhang": 2
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "BeiFengShiZhe",
+        "NodeContentName": "悲风使者",
+        "weight": 1,
+        "DeviationValue": 120,
+        "NPCRelatedTasks": {
+          "JiFuBeiShang": 1,
+          "ChuiSanChouYun": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "YouYuShangDian",
+        "NodeContentName": "忧郁商店",
+        "weight": 1,
+        "DeviationValue": 28,
+        "CanAppearCommodity": [
+          "Sadness",
+          "MianTuan",
+          "IronOre",
+          "NiTu"
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "Sadness",
+      "NiTu",
+      "ZhiZhang"
+    ]
+  },
+
+  "GuLuNuShan": {
+    "NodeID": "GuLuNuShan",
+    "NodeName": "咕噜怒山",
+    "DeviationValue": 6200,
+    "enemyContentsData": [
+      {
+        "EnemyID": "NuYanGuai",
+        "EnemyName": "怒岩怪",
+        "EnemyWeight": 1,
+        "DeviationValue": 50
+      },
+      {
+        "EnemyID": "HuoXiYi",
+        "EnemyName": "火蜥蜴",
+        "EnemyWeight": 1,
+        "DeviationValue": 45
+      },
+      {
+        "EnemyID": "KuangBaoJuYuan",
+        "EnemyName": "狂暴巨猿",
+        "EnemyWeight": 1,
+        "DeviationValue": 60
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "NuHuoRongLu",
+        "NodeContentName": "怒火熔炉",
+        "weight": 1,
+        "DeviationValue": 55,
+        "canSynthesisItem": [
+          "Recipe_LaJiao"
+        ]
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "YanJiangTan",
+        "NodeContentName": "岩浆潭",
+        "weight": 1,
+        "DeviationValue": 95,
+        "CanAppearItem": {
+          "Anger": 4,
+          "GoldOre": 2
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "NuShenShiZhe",
+        "NodeContentName": "怒神使者",
+        "weight": 1,
+        "DeviationValue": 140,
+        "NPCRelatedTasks": {
+          "ZhanShengFenNu": 1,
+          "JieKaiYinJi": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "BaoNueShangDian",
+        "NodeContentName": "暴虐商店",
+        "weight": 1,
+        "DeviationValue": 35,
+        "CanAppearCommodity": [
+          "Anger",
+          "IronOre",
+          "GoldOre",
+          "ShaYuYa"
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "Anger",
+      "GoldOre",
+      "ShaYuYa"
+    ]
+  },
+
+  "XinSuanShaLing": {
+    "NodeID": "XinSuanShaLing",
+    "NodeName": "心酸沙岭",
+    "DeviationValue": 5800,
+    "enemyContentsData": [
+      {
+        "EnemyID": "ShaKuiLei",
+        "EnemyName": "沙傀儡",
+        "EnemyWeight": 1,
+        "DeviationValue": 40
+      },
+      {
+        "EnemyID": "SuanShiChong",
+        "EnemyName": "酸蚀虫",
+        "EnemyWeight": 1,
+        "DeviationValue": 35
+      },
+      {
+        "EnemyID": "KuGuXie",
+        "EnemyName": "枯骨蝎",
+        "EnemyWeight": 1,
+        "DeviationValue": 50
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "SuanLaiGongFang",
+        "NodeContentName": "酸泪工坊",
+        "weight": 1,
+        "DeviationValue": 42,
+        "canSynthesisItem": [
+          "Recipe_MiCu"
+        ]
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "KuJing",
+        "NodeContentName": "枯井",
+        "weight": 1,
+        "DeviationValue": 85,
+        "CanAppearItem": {
+          "Heartache": 3,
+          "SilverOre": 2,
+          "BeiKe": 3
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "ShaLingShiZhe",
+        "NodeContentName": "沙岭使者",
+        "weight": 1,
+        "DeviationValue": 115,
+        "NPCRelatedTasks": {
+          "ShiLuoDeJiYi": 1,
+          "DiaoChaZhenXiang": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "HuangLiangShangDian",
+        "NodeContentName": "荒凉商店",
+        "weight": 1,
+        "DeviationValue": 30,
+        "CanAppearCommodity": [
+          "Heartache",
+          "SilverOre",
+          "BeiKe",
+          "LuoKe"
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "Heartache",
+      "SilverOre",
+      "BeiKe"
+    ]
+  },
+  "MoFaChuFang": {
+    "NodeID": "MoFaChuFang",
+    "NodeName": "魔法厨房",
+    "DeviationValue": 6800,
+    "enemyContentsData": [
+      {
+        "EnemyID": "TanShiGui",
+        "EnemyName": "贪食鬼",
+        "EnemyWeight": 1,
+        "DeviationValue": 35
+      },
+      {
+        "EnemyID": "XiangLiaoJingLing",
+        "EnemyName": "香料精灵",
+        "EnemyWeight": 1,
+        "DeviationValue": 40
+      },
+      {
+        "EnemyID": "GuoLuYao",
+        "EnemyName": "锅炉妖",
+        "EnemyWeight": 1,
+        "DeviationValue": 45
+      }
+    ],
+    "synthesisContentsData": [
+      {
+        "NodeContentID": "MoFaChuFangTai",
+        "NodeContentName": "魔法灶台",
+        "weight": 1,
+        "DeviationValue": 30,
+        "canSynthesisItem": [
+          "Recipe_MaPoDouFuBaoYi",
+          "Recipe_MaPoDouFuKuZi",
+          "Recipe_KuGua",
+          "Recipe_LaJiao",
+          "Recipe_MiCu"
+        ]
+      }
+    ],
+    "chestContentsData": [
+      {
+        "NodeContentID": "TiaoWeiXiang",
+        "NodeContentName": "调味箱",
+        "weight": 1,
+        "DeviationValue": 70,
+        "CanAppearItem": {
+          "LaJiao": 2,
+          "MiCu": 2,
+          "KuGua": 1
+        }
+      }
+    ],
+    "NPCContentData": [
+      {
+        "NodeContentID": "DaChuShen",
+        "NodeContentName": "大厨神",
+        "weight": 1,
+        "DeviationValue": 130,
+        "NPCRelatedTasks": {
+          "PinJianMeiWei": 1,
+          "ShouJiQingXu": 1
+        }
+      }
+    ],
+    "shopContentsData": [
+      {
+        "NodeContentID": "ChuFangShangDian",
+        "NodeContentName": "厨房商店",
+        "weight": 1,
+        "DeviationValue": 25,
+        "CanAppearCommodity": [
+          "LaJiao",
+          "MiCu",
+          "KuGua",
+          "NiTu",
+          "FeiLiao"
+        ]
+      }
+    ],
+    "CanDroppedItems": [
+      "LaJiao",
+      "MiCu",
+      "KuGua",
+      "ShaYuYa"
+    ]
+  }
+}

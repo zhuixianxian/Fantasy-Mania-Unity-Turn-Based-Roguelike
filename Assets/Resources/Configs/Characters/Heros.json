@@ -1,0 +1,313 @@
+{
+  "XingHuo": {
+    "ID": "XingHuo",
+    "Name": "星火",
+    "BaseLevel": 1,
+    "BaseExperience": 100,
+    "BaseHealth": 80000,
+    "BaseEnergy": 150,
+    "BaseAttack": 520,
+    "BaseDefense": 8,
+    "BaseMagicAttack": 10,
+    "BaseMagicDefense": 8,
+    "BaseSpeed": 100,
+    "BaseAccuracy": 10,
+    "BaseEvasion": 10,
+    "BaseParry": 10,
+    "BaseAgility": 10,
+    "BaseEffectResistance": 10,
+    "BaseEffectHit": 10,
+    "Skills": [
+      {
+        "SkillID": "YiHuiJian",
+        "SkillName": "一洄剑",
+        "skillType": 0,
+        "SkillPoints": 0,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "极其强大的指法",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "AngYangKui",
+        "SkillName": "昂扬馈",
+        "skillType": 0,
+        "SkillPoints": 0,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "DiZiJian",
+        "SkillName": "帝子剑",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 1,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "JueQingJian",
+        "SkillName": "诀清剑",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 1,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "HuaXunJian",
+        "SkillName": "化迅剑",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 1,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "ZhouZhuanKui",
+        "SkillName": "周转馈",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 1,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "ZhaiXingLou",
+        "SkillName": "摘星楼",
+        "skillType": 4,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 2,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "GuiZhongJian",
+        "SkillName": "归终剑",
+        "skillType": 2,
+        "SkillEnergy": 120,
+        "SkillCoinGrowthRate": 3,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      }
+    ],
+    "Description": "\u9ED8\u8BA4\u63CF\u8FF0"
+  },
+  //角色的键和角色的ID需要相同
+  //2026.4.12注：此时SkillPoints;SkillEnergy;SkillCD三者为显示辅助，并不提供真正的资源削减功能
+
+  "ChiZi": {
+    "ID": "ChiZi",
+    "Name": "赤子",
+    "BaseLevel": 1,
+    "BaseExperience": 100,
+    "BaseHealth": 80000,
+    "BaseEnergy": 100,
+    "BaseAttack": 520,
+    "BaseDefense": 8,
+    "BaseMagicAttack": 5,
+    "BaseMagicDefense": 8,
+    "BaseSpeed": 9,
+    "BaseAccuracy": 10,
+    "BaseEvasion": 10,
+    "BaseParry": 10,
+    "BaseAgility": 10,
+    "BaseEffectResistance": 10,
+    "BaseEffectHit": 10,
+    "Skills": [
+      {
+        "SkillID": "MaoMaoQuan",
+        "SkillName": "猫猫拳",
+        "skillType": 0,
+        "SkillPoints": 0,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "MaoMaoZhang",
+        "SkillName": "猫猫掌",
+        "skillType": 0,
+        "SkillPoints": 0,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "HunRanShen",
+        "SkillName": "浑然身",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 2,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "ZhenQi",
+        "SkillName": "振气",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 1,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "SiHeDaFang",
+        "SkillName": "四合大方",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "LingMaoDengBao",
+        "SkillName": "灵猫登宝",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 1,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "HouXianWu",
+        "SkillName": "候贤屋",
+        "skillType": 4,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "JiXianMinJieFeiShenPu",
+        "SkillName": "极限敏捷飞身扑",
+        "skillType": 3,
+        "SkillEnergy": 80,
+        "SkillCoinGrowthRate": 2,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      }
+    ],
+    "Description": "\u9ED8\u8BA4\u63CF\u8FF0"
+  },
+  "TaoTie": {
+    "ID": "TaoTie",
+    "Name": "饕餮",
+    "BaseLevel": 1,
+    "BaseExperience": 100,
+    "BaseHealth": 100000,
+    "BaseEnergy": 100,
+    "BaseAttack": 520,
+    "BaseDefense": 8,
+    "BaseMagicAttack": 5,
+    "BaseMagicDefense": 8,
+    "BaseSpeed": 200,
+    "BaseAccuracy": 10,
+    "BaseEvasion": 10,
+    "BaseParry": 10,
+    "BaseAgility": 10,
+    "BaseEffectResistance": 10,
+    "BaseEffectHit": 10,
+    "Skills": [
+      {
+        "SkillID": "MaoMaoQuan",
+        "SkillName": "猫猫拳",
+        "skillType": 0,
+        "SkillPoints": 0,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "MaoMaoZhang",
+        "SkillName": "猫猫掌",
+        "skillType": 0,
+        "SkillPoints": 0,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "HunRanShen",
+        "SkillName": "浑然身",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 2,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "ZhenQi",
+        "SkillName": "振气",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 1,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "SiHeDaFang",
+        "SkillName": "四合大方",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "LingMaoDengBao",
+        "SkillName": "灵猫登宝",
+        "skillType": 1,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 1,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "HouXianWu",
+        "SkillName": "候贤屋",
+        "skillType": 4,
+        "SkillPoints": 1,
+        "SkillCoinGrowthRate": 0,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      },
+      {
+        "SkillID": "JiXianMinJieFeiShenPu",
+        "SkillName": "极限敏捷飞身扑",
+        "skillType": 3,
+        "SkillEnergy": 80,
+        "SkillCoinGrowthRate": 2,
+        "MaxSkillLevel": 15,
+        "SkillDescription": "默认描述",
+        "SkillUnlockLevel": 0
+      }
+    ],
+    "Description": "\u9ED8\u8BA4\u63CF\u8FF0"
+  }
+
+
+}

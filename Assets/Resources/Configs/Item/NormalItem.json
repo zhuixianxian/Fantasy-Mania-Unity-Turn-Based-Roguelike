@@ -1,0 +1,340 @@
+{
+  "ZhiZhang": {
+    "id": "ZhiZhang",
+    "itemName": "纸张",
+    "description": "默认描述",
+    "canStack": true,
+    "itemType": 0,
+    "price": 100
+  },
+  "Apple": {
+    "id": "Apple",
+    "itemName": "苹果",
+    "description": "新鲜红苹果，咬一口恢复体力。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 50
+  },
+  "Pencil": {
+    "id": "Pencil",
+    "itemName": "铅笔",
+    "description": "一根普通铅笔，可以用来书写或合成。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 20
+  },
+  "ThreeKingdoms": {
+    "id": "ThreeKingdoms",
+    "itemName": "三国演义",
+    "description": "古典文学名著，记载了魏蜀吴争霸的故事。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 200
+  },
+  "WaterMargin": {
+    "id": "WaterMargin",
+    "itemName": "水浒传",
+    "description": "讲述一百单八将聚义梁山的故事。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 200
+  },
+  "DreamOfRedMansion": {
+    "id": "DreamOfRedMansion",
+    "itemName": "红楼梦",
+    "description": "描绘贾、史、王、薛四大家族的兴衰。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 200
+  },
+  "JourneyToTheWest": {
+    "id": "JourneyToTheWest",
+    "itemName": "西游记",
+    "description": "讲述唐僧师徒四人西天取经的传奇。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 200
+  },
+  "GoldOre": {
+    "id": "GoldOre",
+    "itemName": "金矿石",
+    "description": "闪耀着金色光芒的矿石，稀有且珍贵。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 500
+  },
+  "SilverOre": {
+    "id": "SilverOre",
+    "itemName": "银矿石",
+    "description": "散发着银色光辉的矿石，常用于打造精美器具。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 300
+  },
+  "CopperOre": {
+    "id": "CopperOre",
+    "itemName": "铜矿石",
+    "description": "常见的铜矿石，可熔炼成铜锭。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 80
+  },
+  "IronOre": {
+    "id": "IronOre",
+    "itemName": "铁矿石",
+    "description": "普通的铁矿石，用途广泛。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 100
+  },
+  "GoldIngot": {
+    "id": "GoldIngot",
+    "itemName": "金锭",
+    "description": "经过熔炼的纯金锭，闪耀夺目，可用于制作高级装备。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 4500
+  },
+  "SilverIngot": {
+    "id": "SilverIngot",
+    "itemName": "银锭",
+    "description": "精致的银锭，质地柔软，常用于打造魔法器具。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 2500
+  },
+  "CopperIngot": {
+    "id": "CopperIngot",
+    "itemName": "铜锭",
+    "description": "铜矿石熔炼而成的铜锭，基础锻造材料。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 600
+  },
+  "IronIngot": {
+    "id": "IronIngot",
+    "itemName": "铁锭",
+    "description": "坚硬的铁锭，制作武器和防具的常见材料。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 800
+  },
+
+  "HuangDou": {
+    "id": "HuangDou",
+    "itemName": "黄豆",
+    "description": "圆润饱满的黄豆，可磨成豆浆或制作豆腐。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 10
+  },
+  "DouFu": {
+    "id": "DouFu",
+    "itemName": "豆腐",
+    "description": "洁白柔软的豆腐，营养丰富，可直接食用或烹饪。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 30
+  },
+  "XiaoMai": {
+    "id": "XiaoMai",
+    "itemName": "小麦",
+    "description": "金黄色的麦穗，磨成面粉后可制作各种面食。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 8
+  },
+  "MianTuan": {
+    "id": "MianTuan",
+    "itemName": "面团",
+    "description": "揉制好的面团，经过烘烤可变成香喷喷的面包。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 20
+  },
+  "FaGun": {
+    "id": "FaGun",
+    "itemName": "法棍",
+    "description": "外脆内软的法式长棍面包，香气扑鼻。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 40
+  },
+  "NiTu": {
+    "id": "NiTu",
+    "itemName": "泥土",
+    "description": "普通的泥土，可以用来种植作物或烧制陶器。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 1
+  },
+  "FeiLiao": {
+    "id": "FeiLiao",
+    "itemName": "肥料",
+    "description": "富含养分的肥料，能加速植物生长。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 5
+  },
+  "MaNao": {
+    "id": "MaNao",
+    "itemName": "玛瑙",
+    "description": "色彩斑斓的玛瑙，常用于雕刻和装饰。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 500
+  },
+  "FeiCui": {
+    "id": "FeiCui",
+    "itemName": "翡翠",
+    "description": "翠绿欲滴的翡翠，质地温润，深受世人喜爱。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 800
+  },
+  "LvBaoShi": {
+    "id": "LvBaoShi",
+    "itemName": "绿宝石",
+    "description": "晶莹剔透的绿宝石，散发着迷人的绿色光芒。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 600
+  },
+  "ZhenZhu": {
+    "id": "ZhenZhu",
+    "itemName": "珍珠",
+    "description": "圆润光滑的珍珠，由贝类孕育而成，光彩夺目。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 300
+  },
+  "ZuanShi": {
+    "id": "ZuanShi",
+    "itemName": "钻石",
+    "description": "璀璨夺目的钻石，自然界最坚硬的矿物，价值连城。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 2000
+  },
+  "BeiKe": {
+    "id": "BeiKe",
+    "itemName": "贝壳",
+    "description": "来自海洋的贝壳，表面有精致的纹路。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 15
+  },
+  "LuoKe": {
+    "id": "LuoKe",
+    "itemName": "螺壳",
+    "description": "螺旋形状的螺壳，可用来制作装饰品或号角。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 20
+  },
+  "ShaYuYa": {
+    "id": "ShaYuYa",
+    "itemName": "鲨鱼牙",
+    "description": "锋利的鲨鱼牙齿，可作为武器材料或护身符。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 150
+  },
+  "LargeMaNao": {
+    "id": "LargeMaNao",
+    "itemName": "大型玛瑙",
+    "description": "经过精炼的大型玛瑙，蕴含着更浓郁的能量。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 2500
+  },
+  "LargeFeiCui": {
+    "id": "LargeFeiCui",
+    "itemName": "大型翡翠",
+    "description": "晶莹剔透的大型翡翠，散发着温润的绿光。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 4000
+  },
+  "LargeLvBaoShi": {
+    "id": "LargeLvBaoShi",
+    "itemName": "大型绿宝石",
+    "description": "耀眼的巨型绿宝石，光芒四射。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 3000
+  },
+  "LargeZhenZhu": {
+    "id": "LargeZhenZhu",
+    "itemName": "大型珍珠",
+    "description": "圆润硕大的珍珠，闪烁着柔和的虹彩。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 1500
+  },
+  "LargeZuanShi": {
+    "id": "LargeZuanShi",
+    "itemName": "大型钻石",
+    "description": "璀璨夺目的巨型钻石，价值连城。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 10000
+  },
+  "Sadness": {
+    "id": "Sadness",
+    "itemName": "悲伤",
+    "description": "凝聚着悲伤情绪的神秘结晶，散发着淡淡的蓝光。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 200
+  },
+  "Anger": {
+    "id": "Anger",
+    "itemName": "愤怒",
+    "description": "燃烧着愤怒火焰的红色晶石，触感炽热。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 200
+  },
+  "Heartache": {
+    "id": "Heartache",
+    "itemName": "心酸",
+    "description": "泛着紫色微光的泪水状结晶，蕴含深沉的酸楚。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 200
+  },
+  "KuGua": {
+    "id": "KuGua",
+    "itemName": "苦瓜",
+    "description": "由悲伤凝结而成的苦瓜，入口极苦，却能清心明目。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 150
+  },
+  "LaJiao": {
+    "id": "LaJiao",
+    "itemName": "辣椒",
+    "description": "由愤怒燃烧而成的辣椒，辛辣无比，能激发斗志。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 150
+  },
+  "MiCu": {
+    "id": "MiCu",
+    "itemName": "米醋",
+    "description": "由心酸发酵而成的米醋，酸中带香，可调味解腻。",
+    "canStack": true,
+    "itemType": 0,
+    "price": 150
+  },
+
+  "Item_1": {
+    "id": "Item_1",
+    "itemName": "物品1",
+    "description": "物品1默认描述",
+    "canStack": true,
+    "itemType": 0,
+    "price": 150
+  }
+}

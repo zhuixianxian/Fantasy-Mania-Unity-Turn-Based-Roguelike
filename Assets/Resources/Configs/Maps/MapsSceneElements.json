@@ -1,0 +1,46 @@
+{
+  "XingHuo": {
+    "ID": "XingHuo",
+    "Name": "星火",
+    "BaseLevel": 0,
+    "BaseExperience": 100,
+    "BaseHealth": 50,
+    "BaseMagic": 30,
+    "BaseAttack": 10,
+    "BaseDefense": 8,
+    "BaseMagicAttack": 10,
+    "BaseMagicDefense": 8,
+    "BaseSpeed": 9,
+    "BaseAccuracy": 10,
+    "BaseEvasion": 10,
+    "BaseParry": 10,
+    "BaseAgility": 10,
+    "BaseEffectResistance": 10,
+    "BaseEffectHit": 10,
+    "Skills": null,
+    "Description": "\u9ED8\u8BA4\u63CF\u8FF0"
+  },
+  //角色的键和角色的ID需要相同
+  "ChiZi": {
+    "ID": "ChiZi",
+    "Name": "赤子",
+    "BaseLevel": 0,
+    "BaseExperience": 100,
+    "BaseHealth": 80,
+    "BaseMagic": 30,
+    "BaseAttack": 5,
+    "BaseDefense": 8,
+    "BaseMagicAttack": 5,
+    "BaseMagicDefense": 8,
+    "BaseSpeed": 9,
+    "BaseAccuracy": 10,
+    "BaseEvasion": 10,
+    "BaseParry": 10,
+    "BaseAgility": 10,
+    "BaseEffectResistance": 10,
+    "BaseEffectHit": 10,
+    "Skills": null,
+    "Description": "\u9ED8\u8BA4\u63CF\u8FF0"
+  }
+
+}

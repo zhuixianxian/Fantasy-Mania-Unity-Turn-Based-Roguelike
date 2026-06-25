@@ -1,0 +1,476 @@
+{
+  "ShuangGuJian": {
+    "id": "ShuangGuJian",
+    "itemName": "双股剑",
+    "description": "默认描述",
+    "canStack": true,
+    "itemType": 2,
+    "price": 1000,
+    "baseCoin": 1000,
+    "equipmentType": 2,
+    "baseEquiStatBags": [
+      {
+        "statType": 13,
+        "modifierType": 2,
+        "AddMinNum": 300,
+        "AddMaxNum": 350
+      },
+      {
+        "statType": 15,
+        "modifierType": 2,
+        "AddMinNum": 300,
+        "AddMaxNum": 350
+      }
+    ]
+  },
+  "YanYueDao": {
+    "id": "YanYueDao",
+    "itemName": "偃月刀",
+    "description": "青龙偃月刀，重八十二斤，关羽所用，威风凛凛。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 1000,
+    "baseCoin": 1000,
+    "equipmentType": 2,
+    "baseEquiStatBags": [
+      {
+        "statType": 13,
+        "modifierType": 2,
+        "AddMinNum": 400,
+        "AddMaxNum": 480
+      },
+      {
+        "statType": 30,
+        "modifierType": 3,
+        "multMinNum": 0.05,
+        "multMaxNum": 0.1
+      }
+    ]
+  },
+
+  "SnakeSpear": {
+    "id": "SnakeSpear",
+    "itemName": "蛇矛",
+    "description": "丈八蛇矛，张飞所用，矛尖如蛇，迅捷致命。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 950,
+    "baseCoin": 1000,
+    "equipmentType": 2,
+    "baseEquiStatBags": [
+      {
+        "statType": 13,
+        "modifierType": 2,
+        "AddMinNum": 350,
+        "AddMaxNum": 420
+      },
+      {
+        "statType": 17,
+        "modifierType": 2,
+        "AddMinNum": 120,
+        "AddMaxNum": 230
+      }
+    ]
+  },
+
+  "DouFuJiaI": {
+    "id": "DouFuJiaI",
+    "itemName": "豆腐甲I",
+    "description": "用豆腐凝结而成的软甲，轻便但防御力尚可。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 300,
+    "baseCoin": 300,
+    "equipmentType": 1,
+    "baseEquiStatBags": [
+      {
+        "statType": 1,
+        "modifierType": 2,
+        "AddMinNum": 100,
+        "AddMaxNum": 120
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 15,
+        "AddMaxNum": 20
+      }
+    ]
+  },
+  "DouFuJiaII": {
+    "id": "DouFuJiaII",
+    "itemName": "豆腐甲II",
+    "description": "经过压制的豆腐甲，质地更密实，防护能力提升。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 600,
+    "baseCoin": 600,
+    "equipmentType": 1,
+    "baseEquiStatBags": [
+      {
+        "statType": 1,
+        "modifierType": 2,
+        "AddMinNum": 200,
+        "AddMaxNum": 240
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 30,
+        "AddMaxNum": 40
+      }
+    ]
+  },
+  "DouFuJiaIII": {
+    "id": "DouFuJiaIII",
+    "itemName": "豆腐甲III",
+    "description": "传说中用千年豆腐制作的宝甲，柔中带刚，刀枪难入。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 1200,
+    "baseCoin": 1200,
+    "equipmentType": 1,
+    "baseEquiStatBags": [
+      {
+        "statType": 1,
+        "modifierType": 2,
+        "AddMinNum": 350,
+        "AddMaxNum": 400
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 55,
+        "AddMaxNum": 70
+      }
+    ]
+  },
+  "FaGunZhangGunI": {
+    "id": "FaGunZhangGunI",
+    "itemName": "法棍长棍I",
+    "description": "将法棍面包硬化而成的长棍，打起来带着麦香。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 250,
+    "baseCoin": 250,
+    "equipmentType": 2,
+    "baseEquiStatBags": [
+      {
+        "statType": 13,
+        "modifierType": 2,
+        "AddMinNum": 45,
+        "AddMaxNum": 60
+      },
+      {
+        "statType": 30,
+        "modifierType": 3,
+        "multMinNum": 0.02,
+        "multMaxNum": 0.04
+      }
+    ]
+  },
+  "FaGunZhangGunII": {
+    "id": "FaGunZhangGunII",
+    "itemName": "法棍长棍II",
+    "description": "经过烤制加固的法棍，质地坚硬，威慑力大增。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 550,
+    "baseCoin": 550,
+    "equipmentType": 2,
+    "baseEquiStatBags": [
+      {
+        "statType": 13,
+        "modifierType": 2,
+        "AddMinNum": 85,
+        "AddMaxNum": 110
+      },
+      {
+        "statType": 30,
+        "modifierType": 3,
+        "multMinNum": 0.04,
+        "multMaxNum": 0.07
+      }
+    ]
+  },
+  "FaGunZhangGunIII": {
+    "id": "FaGunZhangGunIII",
+    "itemName": "法棍长棍III",
+    "description": "神器级法棍，据说注入了面包之魂，挥动时有幻影面包飘散。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 1100,
+    "baseCoin": 1100,
+    "equipmentType": 2,
+    "baseEquiStatBags": [
+      {
+        "statType": 13,
+        "modifierType": 2,
+        "AddMinNum": 140,
+        "AddMaxNum": 180
+      },
+      {
+        "statType": 30,
+        "modifierType": 3,
+        "multMinNum": 0.06,
+        "multMaxNum": 0.10
+      }
+    ]
+  },
+  "DouFuKuZiI": {
+    "id": "DouFuKuZiI",
+    "itemName": "豆腐裤子I",
+    "description": "豆腐浆水浸泡过的裤子，柔软顺滑，行动灵活。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 200,
+    "baseCoin": 200,
+    "equipmentType": 3,
+    "baseEquiStatBags": [
+      {
+        "statType": 21,
+        "modifierType": 2,
+        "AddMinNum": 20,
+        "AddMaxNum": 35
+      }
+    ]
+  },
+  "DouFuKuZiII": {
+    "id": "DouFuKuZiII",
+    "itemName": "豆腐裤子II",
+    "description": "加入黄豆纤维加强的裤子，兼顾灵活与防护。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 480,
+    "baseCoin": 480,
+    "equipmentType": 3,
+    "baseEquiStatBags": [
+      {
+        "statType": 21,
+        "modifierType": 2,
+        "AddMinNum": 45,
+        "AddMaxNum": 70
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 10,
+        "AddMaxNum": 18
+      }
+    ]
+  },
+  "DouFuKuZiIII": {
+    "id": "DouFuKuZiIII",
+    "itemName": "豆腐裤子III",
+    "description": "豆腐宗师传下来的神裤，踏出一步便如游龙惊凤。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 980,
+    "baseCoin": 980,
+    "equipmentType": 3,
+    "baseEquiStatBags": [
+      {
+        "statType": 21,
+        "modifierType": 2,
+        "AddMinNum": 85,
+        "AddMaxNum": 120
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 20,
+        "AddMaxNum": 32
+      },
+      {
+        "statType": 18,
+        "modifierType": 2,
+        "AddMinNum": 15,
+        "AddMaxNum": 25
+      }
+    ]
+  },
+  "MianTuanBaoYiI": {
+    "id": "MianTuanBaoYiI",
+    "itemName": "面团宝衣I",
+    "description": "未发酵的面团揉成的背心，可以吸收部分冲击。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 280,
+    "baseCoin": 280,
+    "equipmentType": 1,
+    "baseEquiStatBags": [
+      {
+        "statType": 1,
+        "modifierType": 2,
+        "AddMinNum": 80,
+        "AddMaxNum": 100
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 12,
+        "AddMaxNum": 18
+      }
+    ]
+  },
+  "MianTuanBaoYiII": {
+    "id": "MianTuanBaoYiII",
+    "itemName": "面团宝衣II",
+    "description": "反复捶打发酵后的面团铠甲，富有弹性且坚固。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 620,
+    "baseCoin": 620,
+    "equipmentType": 1,
+    "baseEquiStatBags": [
+      {
+        "statType": 1,
+        "modifierType": 2,
+        "AddMinNum": 180,
+        "AddMaxNum": 220
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 25,
+        "AddMaxNum": 35
+      },
+      {
+        "statType": 6,
+        "modifierType": 2,
+        "AddMinNum": 30,
+        "AddMaxNum": 50
+      }
+    ]
+  },
+  "MianTuanBaoYiIII": {
+    "id": "MianTuanBaoYiIII",
+    "itemName": "面团宝衣III",
+    "description": "远古麦灵封印于其中的神衣，能唤出面团护盾。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 1350,
+    "baseCoin": 1350,
+    "equipmentType": 1,
+    "baseEquiStatBags": [
+      {
+        "statType": 1,
+        "modifierType": 2,
+        "AddMinNum": 320,
+        "AddMaxNum": 380
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 48,
+        "AddMaxNum": 65
+      },
+      {
+        "statType": 6,
+        "modifierType": 2,
+        "AddMinNum": 70,
+        "AddMaxNum": 100
+      }
+    ]
+  },
+  "MaPoDouFuBaoYi": {
+    "id": "MaPoDouFuBaoYi",
+    "itemName": "麻婆豆腐宝衣",
+    "description": "在豆腐宝衣III上融入辣椒精华，火辣气息护体，攻防兼备。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 2000,
+    "baseCoin": 2000,
+    "equipmentType": 1,
+    "baseEquiStatBags": [
+      {
+        "statType": 1,
+        "modifierType": 2,
+        "AddMinNum": 450,
+        "AddMaxNum": 520
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 70,
+        "AddMaxNum": 90
+      },
+      {
+        "statType": 16,
+        "modifierType": 2,
+        "AddMinNum": 100,
+        "AddMaxNum": 130
+      },
+      {
+        "statType": 13,
+        "modifierType": 2,
+        "AddMinNum": 40,
+        "AddMaxNum": 70
+      }
+    ]
+  },
+  "MaPoDouFuKuZi": {
+    "id": "MaPoDouFuKuZi",
+    "itemName": "麻婆豆腐裤子",
+    "description": "豆腐裤子III与辣椒结合，步伐带火，灵动暴烈。",
+    "canStack": false,
+    "itemType": 2,
+    "price": 1600,
+    "baseCoin": 1600,
+    "equipmentType": 3,
+    "baseEquiStatBags": [
+      {
+        "statType": 21,
+        "modifierType": 2,
+        "AddMinNum": 120,
+        "AddMaxNum": 160
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 35,
+        "AddMaxNum": 50
+      },
+      {
+        "statType": 18,
+        "modifierType": 2,
+        "AddMinNum": 25,
+        "AddMaxNum": 40
+      },
+      {
+        "statType": 30,
+        "modifierType": 3,
+        "multMinNum": 0.05,
+        "multMaxNum": 0.10
+      }
+    ]
+  },
+
+
+  "Equipment_1": {
+    "id": "Equipment_1",
+    "itemName": "装备1",
+    "description": "装备1默认描述",
+    "canStack": false,
+    "itemType": 2,
+    "price": 1600,
+    "baseCoin": 1600,
+    "equipmentType": 3,
+    "baseEquiStatBags": [
+      {
+        "statType": 21,
+        "modifierType": 2,
+        "AddMinNum": 120,
+        "AddMaxNum": 160
+      },
+      {
+        "statType": 14,
+        "modifierType": 2,
+        "AddMinNum": 35,
+        "AddMaxNum": 50
+      }
+    ]
+  }
+
+
+}
